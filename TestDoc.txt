@@ -1,1 +1,63 @@
-this is first for GitHub 
+Shagun@ACCOUNTS-4 MINGW64 /d
+$ cd Git
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git
+$ ls
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git
+$ git config --global user.name "quentinellison"
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git
+$ git config --global user.email quentinellison@outlook.com
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git
+$ git clone https://github.com/quentinellison/TestMvCProjects.git
+Cloning into 'TestMvCProjects'...
+warning: You appear to have cloned an empty repository.
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git
+$ ls
+TestMvCProjects/
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git
+$ cd TestMvCProjects/
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git/TestMvCProjects (master)
+$ ls
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git/TestMvCProjects (master)
+$ ls
+TestDoc.txt
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git/TestMvCProjects (master)
+$ git add TestDoc.txt
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git/TestMvCProjects (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   TestDoc.txt
+
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git/TestMvCProjects (master)
+$ git commit -m"comment for first upload" TestDoc.txt
+[master (root-commit) f8f422c] comment for first upload
+ 1 file changed, 1 insertion(+)
+ create mode 100644 TestDoc.txt
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git/TestMvCProjects (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 244 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/quentinellison/TestMvCProjects.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Shagun@ACCOUNTS-4 MINGW64 /d/Git/TestMvCProjects (master)
+$
